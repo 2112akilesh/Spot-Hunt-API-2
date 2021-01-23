@@ -1,0 +1,30 @@
+{
+  "name": "api-2",
+  "version": "1.0.0",
+  "description": "User to Server API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-spot-hunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2112akilesh/Spot-Hunt-API-2.git"
+  },
+  "keywords": [
+    "Elimination",
+    "of",
+    "child",
+    "porn"
+  ],
+  "author": "Akilesh, nithish prannav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2112akilesh/Spot-Hunt-API-2/issues"
+  },
+  "homepage": "https://github.com/2112akilesh/Spot-Hunt-API-2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12",
+    "nodemon": "^2.0.7"
+  }
+}
