@@ -24,6 +24,9 @@
   "homepage": "https://github.com/2112akilesh/Spot-Hunt-API-2#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "jwks-rsa": "^1.12.2",
     "mongoose": "^5.11.12",
     "nodemon": "^2.0.7"
   }

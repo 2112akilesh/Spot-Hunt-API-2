@@ -1,4 +1,0 @@
-{
-    "port":3100,
-    "database_url":"mongodb+srv://user:userpass@database-uh.bz06g.mongodb.net/DataBase-Uh?retryWrites=true&w=majority"
-}
