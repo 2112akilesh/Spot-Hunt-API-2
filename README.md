@@ -1,6 +1,7 @@
 # API-2
 
-No need to run "npm i" => node module is already exist
+Step 1: Run command " npm install "
+Step 2: create a config file
 
 run the code by:-
 nodemon index.js
