@@ -1,4 +1,0 @@
-{
-    "port":3100,
-    "database_url":"CREATE_A_MONGODB_DATABASE_AND_ADD_THAT_CONNECTION_STRING_HERE"
-}
