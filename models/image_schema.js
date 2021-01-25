@@ -2,10 +2,14 @@ const mongoose = require('mongoose');
 
 //-----------------------Creating schema---------------------------
 const GetScheme = mongoose.Schema({
-    Photo_DNA: String,
+    Photo_DNA: {
+        type: String,
+        default: null
+    },
     size: {
         type: String,
-        required: true
+        required: true,
+        default: null
     },
     date_created: {
         type: Date,
@@ -13,16 +17,19 @@ const GetScheme = mongoose.Schema({
     },
     pixel: {
         width: Number,
-        height: Number
+        height: Number,
     },
     EXIF_data: {
         ISO: Number,
         Focus: Number,
         lens: String,
         apature: String,
-        Flash: Boolean
+        Flash: Boolean,
     },
-    App_Name: String
+    App_Name: {
+        type: String,
+        default: null
+    }
 });
 
 //Exporting schema (imported in router folder)
