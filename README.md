@@ -10,4 +10,4 @@
 <img src="https://i.imgur.com/yCWDkSd.png" alt="Screen shot of database connecting string" width="900px" height="650px">
 <hr>
 <b>Step 5:</b> Run the code by command " nodemon index.js " <br>
-<img src="https://i.imgur.com/EBiyAwt.png" alt="Screen shot of runing command" width="1000px" height="500px">
+<img src="https://i.imgur.com/EBiyAwt.png" alt="Screen shot of runing command" width="1000px" height="300px">
