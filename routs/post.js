@@ -3,7 +3,6 @@ const router  = express.Router();
 const Posts   = require('../models/image_schema');          //Importing schemas from image_data.js
 
 
-
 //Push the request to Data base
 router.post('/update', async (req, res) => {
     
