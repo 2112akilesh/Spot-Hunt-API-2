@@ -2,7 +2,10 @@ const express = require('express');
 const router  = express.Router();
 const Gets    = require('../models/image_schema');          //Importing schemas from image_data.js
 
-
+//Hello world
+router.get('/',(req,res) => {
+  res.send("Hello World");
+});
 //check the id already exists
 router.get('/check', async (req, res) => {
   
