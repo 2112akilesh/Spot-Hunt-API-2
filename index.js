@@ -7,6 +7,12 @@ const post_rout = require('./routs/post');
 //const imghash = require('imghash');     //Importing image hashing from npm package
 
 
+//Hello World
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+
 //Assigning app to express
 const app = express();
 
