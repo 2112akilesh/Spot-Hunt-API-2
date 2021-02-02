@@ -23,5 +23,5 @@ mongoose.connect(process.env.database_url, { useNewUrlParser: true, useUnifiedTo
 
 //API is hosted in
 app.listen(process.env.port, () => {
-  console.log(`Spot Hunt API listening at http://localhost:${process.env.port}`);
+  console.log(`Spot Hunt API listening at http://localhost:${process.env.port || 5000}`);
 })
