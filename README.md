@@ -2,7 +2,7 @@
 
 <b>Step 1:</b> Clone or download the repository in your local machine <br>
 <hr>
-<b>Step 2:</b> Run command " npm install " in your terminal ry (To install the dependency )<br>
+<b>Step 2:</b> Run command " npm install " in your terminal (To install the dependency )<br>
 <hr>
 <b>Step 3:</b> Create a <a href="https://www.mongodb.com/">Mongodb Data Base</a>  <br>
 <hr>
